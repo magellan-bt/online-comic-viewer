@@ -1,0 +1,170 @@
+/* modify this file only if you know css */
+
+.cv-background{
+	background: rgba(0,0,0,1);
+}
+
+.cv-context-menu-frame{
+    width: 300px;
+}
+
+.cv-context-menu-button{
+    line-height: 30px;
+    margin-bottom: 2px;
+    background: rgba(0,0,0,0.75);
+    cursor: pointer;
+    color: white;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+
+.cv-context-menu-button:hover{
+    background: rgba(0,0,0,1);
+    font-weight: bold;
+}
+
+.cv-message-box{
+    width: 250px;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    background: rgba(0,0,0,0.75);
+	border-radius: 5px;
+    color: white;
+}
+
+.cv-navigation-bar-container{
+    margin: auto;
+	margin-bottom: 10px;
+    width: 400px;
+    position: relative;
+    padding: 2px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 5px;
+    border: 2px solid grey;
+    /*background-color: green;*/
+}
+
+.cv-tipbox{
+	position: fixed;
+	padding: 5px;
+	color: white;
+	background-color: black
+}
+
+.cv-navigation-bar{
+    /*margin: auto;*/
+    position: relative;
+    width: 100%;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+    /*padding: 2px;*/
+    /**/
+   
+    text-align: center;
+    /*opacity: 0;*/
+}
+
+.cv-progress-bar{
+    left:0px;
+    top: 0px;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    /*background-color: rgba(0,0,0,.25)*/
+    background-color: rgba(48,48,48,.5);
+    /*border: 2px solid rgba(0,0,0,0);*/
+    border-radius: 5px;
+}
+
+
+/*
+.cv-navigation-bar:hover{
+    opacity: 1;
+}
+*/
+.cv-navigation-bar-counter{
+	/*height: 48px;*/
+    text-align: center;
+    color: white;
+    margin-right: 15px;
+	margin-left: -30px;
+    vertical-align: bottom;
+    display: inline-block;
+    /*background-color: black;*/	
+	color: white;
+	/*border: solid 1px white*/
+}
+
+.cv-navigation-bar-button{
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    color: white;
+    margin-right: 2px;
+    cursor: pointer;
+    vertical-align: bottom;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url('icons.png');
+}
+
+.cv-navigation-bar-button:last-child{
+    margin-right: 0px;
+}
+
+.cv-navigation-bar-button:hover{
+    /*background-color: rgba(0,0,0,1);*/
+}
+
+.cv-navigation-bar-button-previous{
+    background-position: 0px -48px;
+}
+
+.cv-navigation-bar-button-previous:hover{
+    background-position: 0px 0px;
+}
+
+.cv-navigation-bar-button-next{
+    background-position: -48px -48px;
+}
+
+.cv-navigation-bar-button-next:hover{
+    background-position: -48px 0px;
+}
+
+.cv-navigation-bar-button-fullscreen{
+    background-position: -144px -48px;
+}
+
+.cv-navigation-bar-button-fullscreen:hover{
+    background-position: -144px 0px;
+}
+
+.cv-navigation-bar-button-magnify{
+    background-position: -96px -48px;
+}
+
+.cv-navigation-bar-button-magnify:hover{
+    background-position: -96px 0px;
+}
+
+.cv-navigation-bar-button-rewind{
+    background-position: -192px -48px;
+}
+
+.cv-navigation-bar-button-rewind:hover{
+    background-position: -192px 0px;
+}
+
+.cv-navigation-bar-button-download{
+    background-position: -240px -48px;
+}
+
+.cv-navigation-bar-button-download:hover{
+    background-position: -240px -0px;
+}
