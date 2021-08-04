@@ -1,3 +1,6 @@
+// Author: magellan-bt
+// email: tallybobby@gmail.com
+
 class Viewer{
     constructor(list,id,opts){
         var that = this;       
